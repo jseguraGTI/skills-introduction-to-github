@@ -23,10 +23,10 @@ jobs:
         with:
           dotnet-version: "10.0.x"
       - name: Restaurar dependencias
-        run: dotnet restore skills-introduction-to-github-actions.slnx
+        run: dotnet restore skills-introduction-to-github.slnx
 
       - name: Compilar solución
-        run: dotnet build skills-introduction-to-github-actions.slnx --configuration Release --no-build --verbosity normal
+        run: dotnet build skills-introduction-to-github.slnx --configuration Release --no-build --verbosity normal
 
       - name: Ejecutar pruebas unitarias
-        run: dotnet test skills-introduction-to-github-actions.slnx --configuration Release --no-build --verbosity normal
+        run: dotnet test skills-introduction-to-github.slnx --configuration Release --no-build --verbosity normal
