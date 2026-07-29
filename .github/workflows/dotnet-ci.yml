@@ -1,0 +1,32 @@
+name: .NET CI
+on:
+  push:
+    branches:
+      - main
+      - develop
+      - features/*
+  pull_request:
+    branches:
+      - main
+      - develop
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout del código
+      - name: Checkout del código
+        uses: actions/checkout@v4
+
+      - name: Instalar .NET SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "8.0.x"
+      - name: Restaurar dependencias
+        run: dotnet restore skills-introduction-to-github-actions.slnx
+
+      - name: Compilar solución
+        run: dotnet build skills-introduction-to-github-actions.slnx --configuration Release --no-build --verbosity normal
+
+      - name: Ejecutar pruebas unitarias
+        run: dotnet test skills-introduction-to-github-actions.slnx --configuration Release --no-build --verbosity normal

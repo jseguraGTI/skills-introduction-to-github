@@ -1,0 +1,12 @@
+C:\Repositorios\CursoGit\demo2\skills-introduction-to-github\src\DemoApp\bin\Debug\net10.0\DemoApp.deps.json
+C:\Repositorios\CursoGit\demo2\skills-introduction-to-github\src\DemoApp\bin\Debug\net10.0\DemoApp.dll
+C:\Repositorios\CursoGit\demo2\skills-introduction-to-github\src\DemoApp\bin\Debug\net10.0\DemoApp.pdb
+C:\Repositorios\CursoGit\demo2\skills-introduction-to-github\src\DemoApp\obj\Debug\net10.0\DemoApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositorios\CursoGit\demo2\skills-introduction-to-github\src\DemoApp\obj\Debug\net10.0\DemoApp.AssemblyInfoInputs.cache
+C:\Repositorios\CursoGit\demo2\skills-introduction-to-github\src\DemoApp\obj\Debug\net10.0\DemoApp.AssemblyInfo.cs
+C:\Repositorios\CursoGit\demo2\skills-introduction-to-github\src\DemoApp\obj\Debug\net10.0\DemoApp.csproj.CoreCompileInputs.cache
+C:\Repositorios\CursoGit\demo2\skills-introduction-to-github\src\DemoApp\obj\Debug\net10.0\DemoApp.sourcelink.json
+C:\Repositorios\CursoGit\demo2\skills-introduction-to-github\src\DemoApp\obj\Debug\net10.0\DemoApp.dll
+C:\Repositorios\CursoGit\demo2\skills-introduction-to-github\src\DemoApp\obj\Debug\net10.0\refint\DemoApp.dll
+C:\Repositorios\CursoGit\demo2\skills-introduction-to-github\src\DemoApp\obj\Debug\net10.0\DemoApp.pdb
+C:\Repositorios\CursoGit\demo2\skills-introduction-to-github\src\DemoApp\obj\Debug\net10.0\ref\DemoApp.dll
